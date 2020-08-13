@@ -29,10 +29,7 @@ class Stack {
 
     display() 
     { 
-    let str = ""; 
-    for (let i = 0; i < this.items.length; i++) 
-        str += this.items[i] + " "; 
-    return str; 
+    return this.items.join(" "); 
     }
 }
 
